@@ -91,7 +91,7 @@
   "description": "A software for filament tracing in 3D images",
   "schema-version": "cytomine-0.1",
   "container-image": {
-    "image": "neubiaswg5/w_filamenttracing3d_locthr_ij",
+    "image": "neubiaswg5/w_filamenttracing3d-locthr-ij",
     "type": "singularity"
   }
 }

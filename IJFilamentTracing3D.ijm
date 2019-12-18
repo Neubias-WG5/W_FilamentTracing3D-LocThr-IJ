@@ -31,6 +31,7 @@ for(i=0; i<images.length; i++) {
 	image = images[i];
 	if (endsWith(image, ".tif")) {
 		// Workflow
+		open(inputDir + "/" + image);
 		run("Gaussian Blur 3D...", "x="+d2s(gblur,2)+" y="+d2s(gblur,2)+" z="+d2s(gblur,2));
 		run("Auto Local Threshold", "method=Mean radius="+d2s(rad,0)+" parameter_1="+d2s(thr,0)+" parameter_2=0 white stack");
 		run("Invert LUT");

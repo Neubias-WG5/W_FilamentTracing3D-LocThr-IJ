@@ -53,12 +53,12 @@
     },
     {
       "default-value": 0.75,
-      "name": "Gblur",
+      "name": "Gaussian blur radius",
       "description": "Gaussian blur radius",
       "set-by-server": false,
       "value-key": "@ID",
       "optional": true,
-      "id": "Gblur",
+      "id": "gblur",
       "type": "Number",
       "command-line-flag": "--@id"
     }

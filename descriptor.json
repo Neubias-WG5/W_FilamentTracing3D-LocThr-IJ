@@ -53,7 +53,7 @@
     },
     {
       "default-value": 0.75,
-      "name": "Gaussian blur radius",
+      "name": "gblur",
       "description": "Gaussian blur radius",
       "set-by-server": false,
       "value-key": "@ID",
@@ -65,7 +65,7 @@
     ,
     {
       "default-value": 15,
-      "name": "Local threshold radius",
+      "name": "rad",
       "description": "Radius used to compute local mean",
       "set-by-server": false,
       "value-key": "@ID",
@@ -77,7 +77,7 @@
 	,
     {
       "default-value": -15,
-      "name": "Local threshold offset",
+      "name": "thr",
       "description": "Intensity offset to detect object pixel",
       "set-by-server": false,
       "value-key": "@ID",

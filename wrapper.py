@@ -23,7 +23,7 @@ def main(argv):
         # 3. Call the image analysis workflow using the run script
         nj.job.update(progress=25, statusComment="Launching workflow...")
         command = "/usr/bin/xvfb-run java -Xmx6000m -cp /fiji/jars/ij.jar ij.ImageJ --headless --console " \
-                  "-macro macro.ijm \"input={}, output={}, Gblur={}, Rad={}, Thr={}\"".format(in_path, out_path, nj.parameters.Gblur, nj.parameters.Rad, nj.parameters.Thr)
+                  "-macro macro.ijm \"input={}, output={}, gblur={}, rad={}, thr={}\"".format(in_path, out_path, nj.parameters.gblur, nj.parameters.rad, nj.parameters.thr)
         return_code = call(command, shell=True, cwd="/fiji")  # waits for the subprocess to return
 
         if return_code != 0:

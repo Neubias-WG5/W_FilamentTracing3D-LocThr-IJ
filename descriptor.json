@@ -70,7 +70,7 @@
       "set-by-server": false,
       "value-key": "@ID",
       "optional": true,
-      "id": "Rad",
+      "id": "rad",
       "type": "Number",
       "command-line-flag": "--@id"
     }
@@ -82,7 +82,7 @@
       "set-by-server": false,
       "value-key": "@ID",
       "optional": true,
-      "id": "Thr",
+      "id": "thr",
       "type": "Number",
       "command-line-flag": "--@id"
     }
